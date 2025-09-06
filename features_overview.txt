@@ -1,0 +1,56 @@
+🌟 Features Overview
+
+🏰 Dashboard
+📌 Central hub with:
+- 🧍 User Profile → Name, role, department, join date
+- ⭐ XP & Level Bars → Animated progression
+- 🪄 Skills & Proficiency → 1–100 levels + XP earned
+- 📜 Experience Timeline → Career milestones & achievements
+- 🧩 Org Chart → Clickable, interactive employee/department nodes
+- 🎯 Quest Log → Active, pending & completed quests
+
+📜 Quest Board (/quests)
+- 🃏 Task Cards → Difficulty, rewards, status indicators
+- 🟢 Easy | 🟡 Medium | 🔴 Hard (color-coded)
+- 🎮 Quest Types:
+  - 🧑‍🎓 Personal → Self growth goals
+  - 🏢 Department → Team-based objectives
+  - 🌍 Company-wide → Organization initiatives
+- ⚡ Flow → Browse → Accept Quest → Complete → Earn XP + Coins
+
+🛡️ Guilds (/guilds)
+- 🪧 Guild Cards → Name, emblem, XP, member count
+- 🔓 Public / 🔒 Private visibility
+- ✨ Types: Department, Project, Special Interest, Leadership
+- 🧭 Workflow: Browse → View → Join/Request → Unlock Guild Quests
+
+🏛️ Guild Hall (/guild-hall)
+- 🏆 Leaderboards → User & Guild XP rankings
+- 🎖️ Achievements → Quest Master, Team Builder, etc.
+- 🛒 Rewards Shop → Redeem coins for badges, customization, perks
+- 📊 Company Stats → Quest completion, skill trends, engagement metrics
+
+🏗️ Organization Layout (/organization)
+- 🗂️ Drag & Drop Editor → Manage employees, teams, departments
+- 🔄 Multiple views → Hierarchy, network, project-based
+- ✅ Real-time validation for reporting lines
+- 📝 Save versions, export as PDF/image
+- 🎨 Visual themes reflecting company culture
+
+⚙️ State & Routing
+- Contexts
+  - 👤 UserContext → XP, skills, achievements
+  - 🏢 OrganizationContext → Layouts, history, validation
+  - 📜 QuestContext → Quests, rewards, completion tracking
+- Routes
+  - /dashboard → Player hub
+  - /quests → Quest management
+  - /guilds → Guild discovery
+  - /guild-hall → Leaderboards + shop
+  - /organization → Org structure management
+
+🎨 Design & Animations
+- 🎨 Dark + Indigo Theme with gold accents for rewards
+- 💨 Framer Motion → Page transitions, hover, progress animations
+- ✨ Particles & Effects → Level-ups, quest completions
+- 📱 Responsive → Collapsible sidebar, adaptive cards, touch-optimized
